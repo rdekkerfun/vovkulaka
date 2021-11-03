@@ -1,0 +1,57 @@
+@media only screen and (max-width: 992px) {
+    #mobMenuBtn {
+        display: block;
+    }
+    .head-menu {
+        display: none;
+    }
+    .txt-container {
+        position: relative;
+        z-index: 0;
+        background: #333333;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #events {
+        padding: 0;
+    }
+    .card-container {
+        display: block;
+    }
+    .card {
+        margin: 5px 0;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .big-logo {
+        display: none;
+    }
+    .slider-container {
+        padding: 0;
+    }
+    .sliderBtn {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    .accordeo {
+        padding: 10px;
+        font-size: 1rem;
+    }
+    .panel ul li {
+        font-size: 0.8rem;
+    }
+    .links {
+        flex-direction: column;
+    }
+}
